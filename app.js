@@ -5,9 +5,14 @@ const path = require('path');
 
 // Excel file
 const workbook = new ExcelJS.Workbook();
+<<<<<<< HEAD
 const excelFilePath = './Excel_file.xlsx';
 const outputFileName = 'vcards.vcf';
 
+=======
+const excelFilePath = './BSCS SP - 19.xlsx';
+const outputFileName = 'vcards.vcf';
+>>>>>>> 95ce756 (First commit)
 workbook.xlsx.readFile(excelFilePath)
     .then(() => {
         // Accessing file
